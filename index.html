@@ -1,86 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio Landing Page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    
-<link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio Landing Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
-     <!-- Primiera Parte-->
-    <div>
-        
-    <h1 id="titulo-superior" >
-        Tradição em projetos de arquitetura
-    </h1>
-     <p class=" superior"  id="texto-informativo">
-        Arquitetura residencial e comercial.
-    </div>
-    
-     
-        <div>
-            <div 
-        id="menu-informativo">
-        <img class="icone"  id="empreendimentos" src="imagens/empreendimentos.svg" alt="">
-        <img  class="icone" id="mercado"  src="imagens/mercado.svg" alt="">
-        <img  class="icone" id="projetos" class="icone" src="imagens/projetos.svg" alt="">
-     
+    <body>
+        <!-- Primeira Parte-->
+        <div class="primary-container">
+            <div>
+                <h1 id="titulo-superior">Tradição em projetos de arquitetura</h1>
+                <p id="subtitulo-superior">Arquitetura residencial e comercial.</p>
+            </div>
+
+                <div id="menu-informativo">
+                    <img class="icone"  id="empreendimentos" src="imagens/empreendimentos.svg" alt="">
+                    <img  class="icone" id="mercado"  src="imagens/mercado.svg" alt="">
+                    <img  class="icone" id="projetos" class="icone" src="imagens/projetos.svg" alt="">
+                </div>
+            </div>
         </div>
-    </div>
-
-<!-- Segunda Parte-->
-
-    <div class="container">
         
-        <div class="texto">
-            <h1 id="t1" >Arquitetos com História e Experiência</h1> <br><br>
-            <p id="t2" >Nós realizamos desde 2002 projetos e gerenciamento de obras. <br>
-                Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br>
-                como principal proposta transformar em realidade os sonhos de <br>
-                seus clientes, criando projetos personalizados, unindo a tradição <br>
-                e a modernidade em nossos projetos.</p>
+
+        <!-- Segunda Parte-->
+        <div class="secondary-container">
+            
+            <div class="texto">
+                <h1 id="t1" >Arquitetos com História e Experiência</h1>
+                
+                <br><br>
+
+                <p id="t2">
+                    Nós realizamos desde 2002 projetos e gerenciamento de obras. <br>
+                    Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br>
+                    como principal proposta transformar em realidade os sonhos de <br>
+                    seus clientes, criando projetos personalizados, unindo a tradição <br>
+                    e a modernidade em nossos projetos.
+                </p>
+            </div>
+
+            <div class="imagem">
+                <img src="imagens/imagem.decorativa.svg" alt="Imagem Decorativa">
+            </div>
+
         </div>
-        <div class="imagem">
-            <img src="imagens/imagem.decorativa.svg" alt="Imagem Decorativa">
-        </div>
 
-    </div>
-    </div> 
-<!-- Ultima Parte-->
+        <!-- Ultima Parte-->
+        <div class="final-form">
 
-    <div class="formulário-final">
-        <h1 id="titulo-final"  >
-            Conheça mais sobre nossos serviços:
-        </h1>
+            <h1 id="titulo-final"  >
+                Conheça mais sobre nossos serviços:
+            </h1>
 
+            <input class="input" type="Nome" placeholder="Nome">
+            <input class="input" type="Email" placeholder="Email"> 
+
+            <button class="input" id="butao">
+                Fale conosco 
+            </button>
         
-        <input class="input" type="Nome" placeholder="Nome">
-        <input class="input" type="Email" placeholder="Email"> 
-
-
-        <button class="input" id="butao">
-            Fale conosco 
-        </button>
-    
-    </div>
-    
-    <div>
-
-    </div>
- 
-
-        
-
-    
-       
-   
-
-    
-</body>
+        </div> 
+    </body>
 </html>
 
